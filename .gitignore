@@ -1,0 +1,8 @@
+# Arquivos temporários do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pastas de configuração de editores de código (IDEs)
+.vscode/
+.idea/
