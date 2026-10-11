@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal | Multimídia</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Meu Portfólio Pessoal</h1>
+            <nav>
+                <button id="toggle-theme" class="btn-tema" aria-label="Alternar Tema">🌓 Alternar Tema</button>
+                <ul>
+                    <li><a href="index.html">Apresentação</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="formulario.html">Contato</a></li>
+                    <li><a href="multimidia.html" class="active">Multimídia</a></li>
+                    <li><a href="graficos.html">Gráfico</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="multimidia">
+            <h2>Conteúdo Multimídia</h2>
+            
+            <h3>Vídeo HTML5 Native</h3>
+            <video controls>
+                <source src="seu-video.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+
+            <h3>Áudio HTML5 Native</h3>
+            <audio controls>
+                <source src="seu-audio.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+
+            <h3>Conteúdo Incorporado (Iframe)</h3>
+            <iframe src="https://youtube.com" title="Iframe Content" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="StorageManager.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

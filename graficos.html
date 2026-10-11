@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal | Gráfico</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Meu Portfólio Pessoal</h1>
+            <nav>
+                <button id="toggle-theme" class="btn-tema" aria-label="Alternar Tema">🌓 Alternar Tema</button>
+                <ul>
+                    <li><a href="index.html">Apresentação</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="formulario.html">Contato</a></li>
+                    <li><a href="multimidia.html">Multimídia</a></li>
+                    <li><a href="graficos.html" class="active">Gráfico</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="grafico">
+            <h2>Gráfico de Barras (SVG Puro + CSS)</h2>
+            <div class="svg-container">
+                <svg viewBox="0 0 400 200" class="grafico-svg">
+                    <rect x="10" y="50" width="50" height="150" fill="#0284c7" />
+                    <rect x="80" y="20" width="50" height="180" fill="#174161" />
+                    <rect x="150" y="80" width="50" height="120" fill="#4c6ef5" />
+                    <rect x="220" y="40" width="50" height="160" fill="#38bdf8" />
+                </svg>
+            </div>
+            <p class="legenda-grafico">HTML CSS JS Python</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="StorageManager.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
